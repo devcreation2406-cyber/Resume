@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Baskervville SC", serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --bg-color: #1f1f21;
+    --text-color:#fff;
+    --main-color:#ffae00;
+
+    --big-font: 7 rem;
+    --p-font: 1.1 rem;
+}
+body{
+   
+    background:var(--bg-color);
+    color:var(--text-color);
+    overflow-x: hidden;
+}
